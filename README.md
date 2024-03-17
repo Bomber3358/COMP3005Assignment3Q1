@@ -1,11 +1,11 @@
 # COMP3005Assignment3Q1
 # Steps for running the code:
 1. Create a database using the following schema:\n
-   CREATE TABLE students (\n
-    student_id SERIAL PRIMARY KEY,\n
-    first_name VARCHAR(255) NOT NULL,\n
-    last_name VARCHAR(255) NOT NULL,\n
-    email VARCHAR(255) NOT NULL UNIQUE,\n
+   CREATE TABLE students (
+    student_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
     enrollment_date DATE);
 2. Insert initial data using the following SQL query:
    INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
