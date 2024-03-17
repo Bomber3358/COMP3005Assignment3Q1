@@ -1,6 +1,6 @@
 # COMP3005Assignment3Q1
 # Steps for running the code:
-1. Create a database using the following schema:
+1. Create a database using the following schema OR with the provided DLL file:
    CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name VARCHAR(255) NOT NULL,
